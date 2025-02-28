@@ -4,7 +4,11 @@
 }
 
 body {
-  margin-top: 75px;
+  margin: 0; /* Remove margin to prevent spacing issues */
+  height: 100vh; /* Make body take full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #student-number {
@@ -12,10 +16,10 @@ body {
 }
 
 #input-grades {
-  padding: 30px;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  width: auto; /* Ensure it spans full width */
 }
 
 #grid-card {
@@ -53,4 +57,10 @@ input {
 
 .inputBox {
   width: 166px;
+}
+
+/*Table Section*/
+#table-grades {
+  color: black;
+  width: auto;
 }
