@@ -1,0 +1,26 @@
+header {
+  background-color: rgb(23, 117, 148);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 75px;
+}
+
+#head-nav {
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+#logo {
+  width: 45px;
+  object-fit: cover;
+}
+
+#head-title {
+  font-size: 28px;
+  color: white;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Student Grading System</title>
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <nav id="head-nav">
+        <img id="logo" src="images/grades-svgrepo-com.svg" alt="grade-logo">
+
+        <div>
+          <h2 id="head-title">Student Grading System</h2>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="input-grades">
+        <div id="grid-card">
+          <div class="card">
+            <h3 id="student-number">Student 1</h3>
+            <form>
+              <div>
+                <label for="studentName">Student Name: </label> <br>
+                <label for="englishGrade">English Grade: </label> <br>
+                <label for="filipinoGrade">Filipino Grade: </label> <br>
+                <label for="scienceGrade">Science Grade: </label> <br>
+                <label for="PEGrade">PE Grade: </label>
+              </div>
+
+              <div>
+                <input type="text" placeholder="Ex. Juan Dela Cruz"> <br>
+                <input type="number" placeholder="Ex. 80" min="50" max="100" class="inputBox"> <br>
+                <input type="number" placeholder="Ex. 80" min="50" max="100" class="inputBox"> <br>
+                <input type="number" placeholder="Ex. 80" min="50" max="100" class="inputBox"> <br>
+                <input type="number" placeholder="Ex. 80" min="50" max="100" class="inputBox">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
